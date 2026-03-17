@@ -81,6 +81,7 @@
 #     minha_lista.print_list()
 
 #============================== ATIVIDADE ============================#
+#ADICIONAR TAIL
 from platform import node
 from typing import Self
 

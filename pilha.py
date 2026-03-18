@@ -1,62 +1,62 @@
-#ADICIONAR TAIL
+# ADICIONAR TAIL
 from inspect import stack
 from platform import node
 from typing import Self
 
 
 
-def inverter (palavra):
-        pilha = []
+# def inverter (palavra):
+#         pilha = []
 
-        #empilha td
-        for letra in palavra:
-            pilha.append(letra)
-            # A
-            # L
-            # G
-            # O
-            # R
-            # I
-            # T
-            # M
-            # O
-        palavra_invertida = ""
+#         #empilha td
+#         for letra in palavra:
+#             pilha.append(letra)
+#             # A
+#             # L
+#             # G
+#             # O
+#             # R
+#             # I
+#             # T
+#             # M
+#             # O
+#         palavra_invertida = ""
 
-        #desempilha
-        while len(pilha) > 0:
-            palavra_invertida += pilha.pop()
-            # O
-            # M
-            # T
-            # I
-            # R
-            # O
-            # G
-            # L
-            # A
+#         #desempilha
+#         while len(pilha) > 0:
+#             palavra_invertida += pilha.pop()
+#             # O
+#             # M
+#             # T
+#             # I
+#             # R
+#             # O
+#             # G
+#             # L
+#             # A
         
-        return palavra_invertida
+#         return palavra_invertida
 
-#-------EXECUÇÃO------
+# #-------EXECUÇÃO------
 
-print(inverter("ALGORITMO"))
+# print(inverter("ALGORITMO"))
 
 
 
-def parenteses(item):
-    pilha = []
+# def parenteses(item):
+#     pilha = []
 
-    for letras in item:
-        if letras == "(":
-            pilha.append("(")
+#     for letras in item:
+#         if letras == "(":
+#             pilha.append("(")
 
-        elif letras == ")":
-            if len(pilha) == 0:
-                return "invalido" #fechou sem abrir parenteses
-            pilha.pop()
+#         elif letras == ")":
+#             if len(pilha) == 0:
+#                 return "invalido" #fechou sem abrir parenteses
+#             pilha.pop()
     
-    # se a pilha estiver vazia ta certo. se sobrou alguem perdido dentro dela n
-    return "Valido" if len(pilha) == 0 else "invalido"
+#     # se a pilha estiver vazia ta certo. se sobrou alguem perdido dentro dela n
+#     return "Valido" if len(pilha) == 0 else "invalido"
 
 
 # def parenteses2(item2):

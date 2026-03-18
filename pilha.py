@@ -1,7 +1,7 @@
 # ADICIONAR TAIL
-from inspect import stack
-from platform import node
-from typing import Self
+# from inspect import stack
+# from platform import node
+# from typing import Self
 
 
 
